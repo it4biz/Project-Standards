@@ -1,0 +1,217 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+	table.tableizer-table {
+	border: 1px solid #CCC; font-family: Verdana, Verdana, Geneva, sans-serif
+	font-size: 12px;
+} 
+.tableizer-table td {
+	padding: 4px;
+	margin: 3px;
+	border: 1px solid #ccc;
+}
+.tableizer-table th {
+	background-color: #104E8B; 
+	color: #FFF;
+	font-weight: bold;
+}
+</style><table class="tableizer-table">
+<tr class="tableizer-firstrow"><th>Abreviação</th><th>Step</th><th>Categoria</th><th>Descrição</th></tr>
+ <tr><td>ABT</td><td>Abort</td><td>Flow</td><td>Abortar uma transformaçao</td></tr>
+ <tr><td>ACS</td><td>Add a checksum</td><td>Transform</td><td>Adicionar uma coluna de verificaçao para cada linha de entrada</td></tr>
+ <tr><td>ADC</td><td>Add constants</td><td>Transform</td><td>Adicionar um ou mais constantes nas linhas de entrada</td></tr>
+ <tr><td>ADO</td><td>Automatic Documentation Output</td><td>Output</td><td>Este passo gera automaticamente documentos com base na entrada em forma de uma lista de transformaçoes e empregos</td></tr>
+ <tr><td>ADS</td><td>Add sequence</td><td>Transform</td><td>Obter o próximo valor a partir de uma seqüencia</td></tr>
+ <tr><td>ADX</td><td>Add XML</td><td>Transform</td><td>Codificar vários campos em um fragmento XML</td></tr>
+ <tr><td>ANQ</td><td>Analytic Query</td><td>Statistics</td><td>Executar consultas analíticas sobre um conjunto de dados ordenados (LEAD / LAG / primeira / última)</td></tr>
+ <tr><td>APS</td><td>Append streams</td><td>Flow</td><td>Anexar duas correntes, de forma ordenada</td></tr>
+ <tr><td>AVF</td><td>Add value fields changing sequence</td><td>Transform</td><td>Adicionar seqüencia, dependendo dos campos de alteraçao de valor.Cada valor de tempo de pelo menos uma alteraçao de campo, PDI irá repor sequencia.</td></tr>
+ <tr><td>AVI</td><td>Avro input</td><td>Input</td><td>Decodificar binário ou de dados JSON Avro de um arquivo ou um campo</td></tr>
+ <tr><td>BLS</td><td>Blocking Step</td><td>Flow</td><td>Isto bloqueia passo até que todas as linhas de entrada foram processados. Os passos seguintes só receberá a última linha de entrada para este passo.</td></tr>
+ <tr><td>BTS</td><td>Block this step until steps finish</td><td>Flow</td><td>Bloquear este passo até terminar etapas selecionado.</td></tr>
+ <tr><td>CAI</td><td>Cassandra input</td><td>Input</td><td>Leia de uma família de coluna Cassandra</td></tr>
+ <tr><td>CAL</td><td>Calculator</td><td>Transform</td><td>Criar novos campos, realizando cálculos simples</td></tr>
+ <tr><td>CAO</td><td>Cassandra output</td><td>Output</td><td>Escreva para a família de colunas Cassandra</td></tr>
+ <tr><td>CCV</td><td>Credit card validator</td><td>Validation</td><td>O cartao etapa de validaçao de crédito irá ajudá-lo a dizer: (1) se um número de cartao de crédito é válido (usa LUHN10 (MOD-10) algoritmo) (2) que o fornecedor do cartao de crédito lida com esse número (VISA, MasterCard, Diners Club, a caminho, American Express (AMEX), ...)</td></tr>
+ <tr><td>CDP</td><td>Call DB Procedure</td><td>Lookup</td><td>Volte informaçoes chamando um procedimento de banco de dados.</td></tr>
+ <tr><td>CFE</td><td>Change file encoding</td><td>Utility</td><td>Alterar a codificaçao de arquivos e criar um novo arquivo</td></tr>
+ <tr><td>CFI</td><td>CSV file input</td><td>Input</td><td>Entrada de arquivo CSV simples</td></tr>
+ <tr><td>CIC</td><td>Check if a column exists</td><td>Lookup</td><td>Verifique se uma coluna existe em uma tabela em uma conexao especificado.</td></tr>
+ <tr><td>CIF</td><td>Check if file is locked</td><td>Lookup</td><td>Verifique se o arquivo está bloqueado por outro processo</td></tr>
+ <tr><td>CIW</td><td>Check if webservice is available</td><td>Lookup</td><td>Verifique se o webservice está disponível</td></tr>
+ <tr><td>CLG</td><td>Closure Generator</td><td>Transform</td><td>Esta etapa permite que voce gera uma tabela de fechamento por meio de relaçoes pai-filho.</td></tr>
+ <tr><td>CLR</td><td>Clone row</td><td>Utility</td><td>Clonar uma linha como quantas vezes forem necessárias</td></tr>
+ <tr><td>COF</td><td>Concat Fields</td><td>Transform</td><td>O passo Campos Concat é usado para concatenar vários campos em um campo de destino. Os campos podem ser separadas por um separador e a lógica recinto é completamente compatível com o passo de saída do ficheiro de texto.</td></tr>
+ <tr><td>COL</td><td>Combination lookup/update</td><td>Data Warehouse</td><td>Atualizar uma dimensao lixo em um data warehouse. Em alternativa, procurar informaçoes nesta dimensao. A chave primária de uma dimensao de lixo sao todos os campos.</td></tr>
+ <tr><td>CRR</td><td>Copy rows to result</td><td>Job</td><td>Use esta etapa para escrever linhas ao trabalho executado. A informaçao será passada para a próxima entrada neste trabalho.</td></tr>
+ <tr><td>DAG</td><td>Data Grid</td><td>Input</td><td>Digite linhas de dados estáticos em uma grade, geralmente para testes, de referencia ou de demonstraçao propósito</td></tr>
+ <tr><td>DAJ</td><td>Database join</td><td>Lookup</td><td>Executa uma consulta de banco de dados usando os valores de fluxo como parâmetros</td></tr>
+ <tr><td>DAL</td><td>Database lookup</td><td>Lookup</td><td>Consultar valores em um banco de dados usando os valores de campo</td></tr>
+ <tr><td>DAV</td><td>Data Validator</td><td>Validation</td><td>Valida passagem de dados com base em um conjunto de regras</td></tr>
+ <tr><td>DDN</td><td>Dummy (do nothing)</td><td>Flow</td><td>Este tipo de passo nao faz nada. É útil no entanto, quando testando coisas ou em determinadas situaçoes onde voce quer dividir córregos.</td></tr>
+ <tr><td>DEL</td><td>Delete</td><td>Output</td><td>Excluir dados em uma tabela de banco de dados baseado em chaves</td></tr>
+ <tr><td>DER</td><td>Delay row</td><td>Utility</td><td>Saída de cada linha de entrada após um atraso</td></tr>
+ <tr><td>DES</td><td>Detect empty stream</td><td>Flow</td><td>Esta etapa irá produzir uma linha vazia se fluxo de entrada está vazia (ou seja, quando fluxo de entrada nao contém nenhuma linha)</td></tr>
+ <tr><td>DIL</td><td>Dimension lookup/update</td><td>Data Warehouse</td><td>Atualizar uma dimensao de alteraçao lenta em um data warehouse. Em alternativa, procurar informaçoes nesta dimensao.</td></tr>
+ <tr><td>DSF</td><td>De-serialize from file</td><td>Input</td><td>Ler linhas de dados de um cubo de dados.</td></tr>
+ <tr><td>DSR</td><td>Dynamic SQL row</td><td>Lookup</td><td>Executar instruçao SQL dinâmica construir em um campo anterior</td></tr>
+ <tr><td>EBI</td><td>ElasticSearch Bulk Insert</td><td>Bulk loading</td><td>Executa inserçoes em massa em ElasticSearch</td></tr>
+ <tr><td>EDX</td><td>Edi to XML</td><td>Utility</td><td>Converte uma mensagem Edifact de XML para simplificar a extraçao de dados (Disponível em PDI 4.4, já presente no CI tronco constrói)</td></tr>
+ <tr><td>EMI</td><td>Email messages input</td><td>Input</td><td>Leia servidor POP3/IMAP e recuperar mensagens</td></tr>
+ <tr><td>EML</td><td>Mail</td><td>Utility</td><td>Enviar e-mail.</td></tr>
+ <tr><td>EPL</td><td>Example plugin</td><td>Transform</td><td>Este é um exemplo de uma etapa de teste plug-in</td></tr>
+ <tr><td>EPR</td><td>Execute a process</td><td>Utility</td><td>Executar um processo e retornar o resultado</td></tr>
+ <tr><td>ERS</td><td>Execute row SQL script</td><td>Scripting</td><td>Executar script SQL extraído a partir de um campo criado na etapa anterior.</td></tr>
+ <tr><td>ESR</td><td>ESRI Shapefile Reader</td><td>Input</td><td>Le os dados do arquivo de forma de um arquivo de forma ESRI e arquivo DBF linked</td></tr>
+ <tr><td>ESS</td><td>Execute SQL script</td><td>Scripting</td><td>Executar um script SQL, opcionalmente parametrizado usando linhas de entrada</td></tr>
+ <tr><td>FFI</td><td>Fixed file input</td><td>Input</td><td>Arquivo de entrada fixo</td></tr>
+ <tr><td>FIE</td><td>File exists</td><td>Lookup</td><td>Verifique se existe um arquivo</td></tr>
+ <tr><td>FIR</td><td>Filter rows</td><td>Flow</td><td>Filtrar linhas utilizando equaçoes simples</td></tr>
+ <tr><td>FRM</td><td>Formula</td><td>Scripting</td><td>Calcular uma fórmula usando libformula do Pentaho</td></tr>
+ <tr><td>FUM</td><td>Fuzzy match</td><td>Lookup</td><td>Encontrar correspondencias aproximadas de uma string usando algoritmos de correspondencia. Leia um campo a partir de um fluxo principal e valor aproximativo saída de fluxo de pesquisa.</td></tr>
+ <tr><td>GBL</td><td>Greenplum Bulk Loader</td><td>Bulk loading</td><td>Greenplum massa Carregador</td></tr>
+ <tr><td>GCI</td><td>GZIP CSV Input</td><td>Input</td><td>Paralelo GZIP CSV leitor arquivo de entrada</td></tr>
+ <tr><td>GDX</td><td>Get data from XML</td><td>Input</td><td>Obter dados de um arquivo XML usando XPath. Esta etapa também permite analisar XML definido em um campo anterior.</td></tr>
+ <tr><td>GER</td><td>Generate Rows</td><td>Input</td><td>Gerar um número de linhas vazias ou igual.</td></tr>
+ <tr><td>GEV</td><td>Get Variables</td><td>Job</td><td>Determine os valores de certas variáveis ??(ambiente ou Kettle) e colocá-los em valores de campo.</td></tr>
+ <tr><td>GFC</td><td>Get Files Rows Count</td><td>Input</td><td>Obter arquivos linhas Conde</td></tr>
+ <tr><td>GFN</td><td>Get File Names</td><td>Input</td><td>Obter os nomes dos arquivos do sistema operacional e enviá-los para a próxima etapa.</td></tr>
+ <tr><td>GFR</td><td>Get files from result</td><td>Job</td><td>Esta etapa permite que voce leia nomes utilizados ou gerados em uma entrada anterior em um trabalho.</td></tr>
+ <tr><td>GIS</td><td>Get ID from slave server</td><td>Transform</td><td>Recupera IDs únicos em blocos de um servidor escravo. A seqüencia de referencia precisa ser configurado no servidor escravo no arquivo de configuraçao XML.</td></tr>
+ <tr><td>GOA</td><td>Google Analytics</td><td>Input</td><td>Obtém os dados de conta do Google Analytics</td></tr>
+ <tr><td>GRB</td><td>Group by</td><td>Statistics</td><td>Constrói agregados em um grupo de moda. Isto funciona apenas em uma entrada de classificados.Se a entrada nao é classificada, apenas fileiras duplas consecutivos sao tratados corretamente.</td></tr>
+ <tr><td>GRC</td><td>Generate random credit card numbers</td><td>Input</td><td>Gerar valide números de cartao de crédito aleatórios (luhn verificar)</td></tr>
+ <tr><td>GRN</td><td>Get repository names</td><td>Input</td><td>Lista informaçoes detalhadas sobre as transformaçoes e / ou postos de trabalho em um repositório</td></tr>
+ <tr><td>GRR</td><td>Get rows from result</td><td>Job</td><td>Isto permite que voce leia as linhas de uma entrada anterior em um trabalho.</td></tr>
+ <tr><td>GRV</td><td>Generate random value</td><td>Input</td><td>Gerar valor aleatório</td></tr>
+ <tr><td>GSI</td><td>Get System Info</td><td>Input</td><td>Obter informaçoes do sistema, como a data do sistema, argumentos, etc</td></tr>
+ <tr><td>GSN</td><td>Get SubFolder names</td><td>Input</td><td>Leia a pasta pai e retornar todas as subpastas</td></tr>
+ <tr><td>GTN</td><td>Get table names</td><td>Input</td><td>Obter nomes de tabelas de conexao com o banco e enviá-los para a próxima etapa</td></tr>
+ <tr><td>HBI</td><td>HBase input</td><td>Input</td><td>Leia de uma família de coluna HBase</td></tr>
+ <tr><td>HBO</td><td>HBase output</td><td>Output</td><td>Escrever para uma família de coluna HBase</td></tr>
+ <tr><td>HTC</td><td>HTTP client</td><td>Lookup</td><td>Chamar um serviço web através de HTTP, fornecendo uma URL base, permitindo que os parâmetros sejam ajustados dinamicamente</td></tr>
+ <tr><td>HTP</td><td>HTTP Post</td><td>Lookup</td><td>Chame uma solicitaçao de serviço web através de HTTP, fornecendo uma URL base, permitindo que os parâmetros sejam ajustados dinamicamente</td></tr>
+ <tr><td>IFV</td><td>If field value is null</td><td>Utility</td><td>Define um valor de campo a uma constante, se é nulo.</td></tr>
+ <tr><td>ILR</td><td>Identify last row in a stream</td><td>Flow</td><td>Última linha será marcada</td></tr>
+ <tr><td>INJ</td><td>Injector</td><td>Inline</td><td>Injector passo para permitir a injetar linhas na transformaçao através da API Java</td></tr>
+ <tr><td>INL</td><td>Infobright Loader</td><td>Bulk loading</td><td>Carregar dados em uma tabela de banco de dados Infobright</td></tr>
+ <tr><td>INU</td><td>Insert / Update</td><td>Output</td><td>Atualizar ou inserir linhas em um banco de dados baseado em chaves.</td></tr>
+ <tr><td>IVB</td><td>Ingres VectorWise Bulk Loader</td><td>Bulk loading</td><td>Interfaces de este passo com o comando Ingres VectorWise massa Loader "COPY TABLE".</td></tr>
+ <tr><td>JAF</td><td>Java Filter</td><td>Flow</td><td>Filtrar linhas usando o código java</td></tr>
+ <tr><td>JOE</td><td>?Job Executor</td><td>Flow </td><td>Esta etapa executa um Pentaho Integration Job Dados, passa parâmetros e linhas. </td></tr>
+ <tr><td>JRC</td><td>Join Rows (cartesian product) </td><td>Joins</td><td>O resultado deste passo é o produto cartesiano dos fluxos de entrada. O número de linhas é a multiplicaçao do número de linhas nos fluxos de entrada.</td></tr>
+ <tr><td>JSI</td><td>Json Input</td><td>Input</td><td>Extrair partes relevantes fora de estruturas JSON (arquivo ou campo de entrada) e as linhas de saída</td></tr>
+ <tr><td>JSO</td><td>Json output</td><td>Output</td><td>Criar Json bloco e saída em um campo UO um arquivo.</td></tr>
+ <tr><td>LDO</td><td>LDAP Output</td><td>Output</td><td>Realize Inserir Upsert, atualizar, adicionar ou excluir operaçoes em registros com base em seu DN (nome distinto).</td></tr>
+ <tr><td>LFC</td><td>Load file content in memory</td><td>Input</td><td>Carregar o conteúdo do arquivo na memória</td></tr>
+ <tr><td>LFI</td><td>LDIF Input</td><td>Input</td><td>Ler dados de arquivos LDIF</td></tr>
+ <tr><td>LPI</td><td>LDAP Input</td><td>Input</td><td>Ler dados a partir do host LDAP</td></tr>
+ <tr><td>LSL</td><td>LucidDB Streaming Loader</td><td>Bulk loading</td><td>Carregar dados em LucidDB usando linhas remoto UDX.</td></tr>
+ <tr><td>MAI</td><td>Microsoft Access Input </td><td>Input</td><td>Ler dados de um arquivo do Microsoft Access</td></tr>
+ <tr><td>MAO</td><td>Microsoft Access Output</td><td>Output</td><td>Armazena os registros em uma tabela de banco de dados MS-Access.</td></tr>
+ <tr><td>MAV</td><td>Mail Validator</td><td>Validation</td><td>Verifique se um endereço de e-mail é válido.</td></tr>
+ <tr><td>MDI</td><td>Mondrian Input</td><td>Input</td><td>Executar e recuperar dados usando uma consulta MDX contra um Análises servidor OLAP Pentaho (Mondrian)</td></tr>
+ <tr><td>MEI</td><td>Microsoft Excel Input</td><td>Input</td><td>Ler dados de pastas de trabalho do Excel e OpenOffice (XLS, XLSX, ODS).</td></tr>
+ <tr><td>MEJ</td><td>Merge Join</td><td>Joins</td><td>Junta-se duas correntes em uma determinada chave e gera um conjunto unido. Os fluxos de entrada devem ser classificados na chave de junçao</td></tr>
+ <tr><td>MEO</td><td>Microsoft Excel Output</td><td>Output</td><td>Armazena os registros em um documento Excel (XLS) com informaçoes de formataçao.</td></tr>
+ <tr><td>MEW</td><td>Microsoft Excel Writer</td><td>Output</td><td>Escreve ou acrescenta dados para um arquivo Excel</td></tr>
+ <tr><td>MGB</td><td>Memory Group by</td><td>Statistics</td><td>Constrói agregados em um grupo de moda. Esta etapa nao requer entrada de classificados.</td></tr>
+ <tr><td>MGI</td><td>MongoDB Input</td><td>Input</td><td>Le todas as entradas de uma coleçao MongoDB no banco de dados especificado.</td></tr>
+ <tr><td>MGL</td><td>MaxMind GeoIP Lookup</td><td>Lookup</td><td>Lookup um endereço IPv4 em um banco de dados MaxMind e adicionar campos como a geografia, ISP, ou organizaçao.</td></tr>
+ <tr><td>MIS</td><td>Mapping input specification</td><td>Mapping</td><td>Especificar a interface de entrada de um mapeamento</td></tr>
+ <tr><td>MJS</td><td>Modified Java Script Value</td><td>Scripting</td><td>Este etapas permite a execuçao de programas em JavaScript (e muito mais) </td></tr>
+ <tr><td>MMJ</td><td>Multiway Merge Join</td><td>Joins</td><td>Multiway Merge Join</td></tr>
+ <tr><td>MNB</td><td>MonetDB Bulk Loader</td><td>Bulk loading</td><td>Carregar dados em MonetDB usando seu comando maior de carga em modo streaming.</td></tr>
+ <tr><td>MOO</td><td>MongoDB Output</td><td>Output</td><td>Escreva para a coleçao MongoDB.</td></tr>
+ <tr><td>MOS</td><td>Mapping output specification</td><td>Mapping</td><td>Especificar a interface de um mapeamento de saída</td></tr>
+ <tr><td>MPP</td><td>Mapping (sub-transformation)</td><td>Mapping</td><td>Executar um mapeamento (sub-transformaçao), uso MappingInput e MappingOutput para especificar a interface de campos</td></tr>
+ <tr><td>MRD</td><td>Merge Rows (diff)</td><td>Joins</td><td>Mesclar duas correntes de linhas, ordenados em uma determinada chave. As duas correntes sao comparados e os iguais, alterado, apagado e novas linhas sao sinalizadas.</td></tr>
+ <tr><td>MSB</td><td>MySQL Bulk Loader</td><td>Bulk loading</td><td>MySQL passo carregador em massa, o carregamento de dados ao longo de um pipe nomeado (nao disponível em MS Windows)</td></tr>
+ <tr><td>MSO</td><td>Metadata structure of stream</td><td>Utility</td><td>Este é um passo para ler os metadados do fluxo de entrada.</td></tr>
+ <tr><td>MTI</td><td>ETL Metadata Injection</td><td>Flow</td><td>Esta etapa permite injetar metadados em uma transformaçao existente antes da execuçao. Isso permite a criaçao de soluçoes de integraçao de dados dinâmicos e altamente flexível.</td></tr>
+ <tr><td>NUI</td><td>Null if...</td><td>Utility</td><td>Define um valor de campo como nulo se for igual a um valor constante</td></tr>
+ <tr><td>NUR</td><td>Number range</td><td>Transform</td><td>Criar faixas com base no campo numérico</td></tr>
+ <tr><td>OBL</td><td>Oracle Bulk Loader</td><td>Bulk loading</td><td>Usar o Oracle massa Loader para carregar os dados</td></tr>
+ <tr><td>OLI</td><td>OLAP Input</td><td>Input</td><td>Executar e recuperar dados usando uma consulta MDX contra qualquer XML / A fonte de dados OLAP utilizando olap4j</td></tr>
+ <tr><td>OOD</td><td>OpenERP Object Delete</td><td>Delete </td><td>Exclui os dados do servidor OpenERP usando a interface XMLRPC com a funçao 'desvincular'. </td></tr>
+ <tr><td>OOI</td><td>OpenERP Object Input</td><td>Input</td><td>Recupera os dados do servidor OpenERP usando a interface XMLRPC com a funçao 'lidas'.</td></tr>
+ <tr><td>OOO</td><td>OpenERP Object Output</td><td>Output </td><td>Atualiza os dados no servidor OpenERP usando a interface XMLRPC ea funçao de "importaçao" </td></tr>
+ <tr><td>OSM</td><td>Output steps metrics</td><td>Statistics</td><td>Voltar métricas para uma ou várias etapas</td></tr>
+ <tr><td>PBL</td><td>PostgreSQL Bulk Loader</td><td>Bulk loading</td><td>PostgreSQL massa Carregador</td></tr>
+ <tr><td>PCI</td><td>Palo Cell Input</td><td>Input </td><td>Recupera todos os dados da célula de um cubo Palo </td></tr>
+ <tr><td>PCO</td><td>Palo Cell Output</td><td>Output </td><td>Atualiza os dados de células em um cubo de Palo </td></tr>
+ <tr><td>PDI</td><td>Palo Dimension Input</td><td>Input </td><td>Retorna os elementos de uma dimensao em um banco de dados Palo </td></tr>
+ <tr><td>PDO</td><td>Palo Dimension Output</td><td>Output </td><td>Cria / atualiza elementos de dimensao e consolidaçoes de elementos em um banco de dados Palo </td></tr>
+ <tr><td>PRF</td><td>Process files</td><td>Utility</td><td>Processo de um arquivo por linha (copiar ou mover ou excluir). Este passo só aceitar em nome de entrada.</td></tr>
+ <tr><td>PRI</td><td>Property Input</td><td>Input</td><td>Ler dados (key, value) de arquivos de propriedades.</td></tr>
+ <tr><td>PRO</td><td>Properties Output</td><td>Output</td><td>Gravar dados em arquivo de propriedades</td></tr>
+ <tr><td>PRS</td><td>Prioritize streams</td><td>Flow</td><td>Priorizar fluxos de uma maneira ordem.</td></tr>
+ <tr><td>PTR</td><td>Pentaho Reporting Output</td><td>Output</td><td>Executa um relatório existente (PRPT)</td></tr>
+ <tr><td>REC</td><td>REST Client</td><td>Lookup</td><td>Consumir serviços descansado.REpresentational State Transfer (REST) ??é uma linguagem de design chave que abraça uma arquitetura cliente-servidor sem estado em que os serviços web sao vistos como recursos e podem ser identificados por suas URLs</td></tr>
+ <tr><td>REE</td><td>Regex Evaluation</td><td>Scripting</td><td>Avaliaçao de expressao regular. Este passo utiliza uma expressao regular para avaliar um campo.Ele também pode extrair novos campos de um campo existente com grupos de captura.</td></tr>
+ <tr><td>RES</td><td>Reservoir Sampling</td><td>Statistics</td><td>Transformar amostras de um número fixo de filas a partir do fluxo de entrada</td></tr>
+ <tr><td>ROD</td><td>Row denormaliser</td><td>Transform</td><td>Denormalises linhas, observando-se os pares de valores-chave e, atribuindo-lhes novos campos nas linhas de saída. Este método agregados e as necessidades das linhas de entrada a serem classificados nos campos de agrupamento</td></tr>
+ <tr><td>ROF</td><td>Row flattener</td><td>Transform</td><td>Nivela linhas consecutivas com base na ordem em que aparecem no fluxo de entrada</td></tr>
+ <tr><td>RON</td><td>Row Normaliser</td><td>Transform</td><td>De informaçao normalizada pode ser normalizada utilizando este tipo de etapa.</td></tr>
+ <tr><td>RPS</td><td>Replace in string</td><td>Transform</td><td>Substitua todas as ocorrencias de uma palavra em uma string com outra palavra.</td></tr>
+ <tr><td>RSC</td><td>Run SSH commands</td><td>Utility</td><td>Executar comandos SSH e retorna resultado.</td></tr>
+ <tr><td>RSI</td><td>RSS Input</td><td>Input</td><td>Leia feeds RSS</td></tr>
+ <tr><td>RSO</td><td>RSS Output</td><td>Output</td><td>Leia fluxo RSS.</td></tr>
+ <tr><td>RUA</td><td>Rule Accumulator</td><td>Scripting</td><td>Executar uma regra contra um conjunto de linhas (usando Drools)</td></tr>
+ <tr><td>RUE</td><td>Rule Executor</td><td>Scripting</td><td>Executar uma regra contra cada linha (usando Drools)</td></tr>
+ <tr><td>SAD</td><td>Salesforce Delete</td><td>Output</td><td>Excluir registros no módulo Salesforce.</td></tr>
+ <tr><td>SAM</td><td>Synchronize after merge</td><td>Output</td><td>Este passo executar inserir / actualizar / apagar de uma só vez com base no valor de um campo.</td></tr>
+ <tr><td>SAR</td><td>Sample rows</td><td>Statistics</td><td>Filtrar linhas com base no número da linha.</td></tr>
+ <tr><td>SCI</td><td>S3 CSV Input</td><td>Input</td><td>S3 CSV Input</td></tr>
+ <tr><td>SEF</td><td>Serialize to file</td><td>Output</td><td>Faça linhas de dados para um cubo de dados</td></tr>
+ <tr><td>SEV</td><td>Set Variables</td><td>Job</td><td>Definir as variáveis ??de ambiente com base em uma única linha de entrada.</td></tr>
+ <tr><td>SFC</td><td>Set field value to a constant</td><td>Transform</td><td>Defina o valor de um campo a uma constante</td></tr>
+ <tr><td>SFI</td><td>Salesforce Input</td><td>Input</td><td>Le informaçoes da SalesForce </td></tr>
+ <tr><td>SFO</td><td>S3 File Output</td><td>Output</td><td>Crie arquivos em um local S3</td></tr>
+ <tr><td>SFR</td><td>Set files in result</td><td>Job</td><td>Esta etapa permite que voce defina nomes no resultado dessa transformaçao. Entradas de trabalho subsequentes podem entao usar esta informaçao.</td></tr>
+ <tr><td>SFU</td><td>Salesforce Update</td><td>Output</td><td>Atualizar os registros no módulo Salesforce.</td></tr>
+ <tr><td>SFV</td><td>Set field value</td><td>Transform</td><td>Defina o valor de um campo a outro campo de valor</td></tr>
+ <tr><td>SIT</td><td>Single Threader</td><td>Flow</td><td>Executa um trecho de transformaçao em um único segmento. É necessário um mapeamento padrao ou uma transformaçao com um passo do injector em que os dados a partir da transformaçao pai vai arive em blocos.</td></tr>
+ <tr><td>SKG</td><td>Secret key generator</td><td>Experimental</td><td>Gerar chave secretam para algoritmos como DES, AEC, TripleDES .</td></tr>
+ <tr><td>SLI</td><td>Salesforce Insert</td><td>Output</td><td>Inserir registros no módulo Salesforce.</td></tr>
+ <tr><td>SLV</td><td>Select values </td><td>Transform</td><td>Selecione ou remova os campos em uma linha.Opcionalmente, defina a meta-dados de campo: tipo, tamanho e precisao.</td></tr>
+ <tr><td>SMS</td><td>Send message to Syslog</td><td>Utility</td><td>Enviar mensagem para o servidor Syslog</td></tr>
+ <tr><td>SOM</td><td>Sorted Merge </td><td>Joins</td><td>Ordenado Mesclar</td></tr>
+ <tr><td>SOR</td><td>Socket reader</td><td>Inline</td><td>Leitor Socket. Um cliente de soquete que conecta a um servidor (passo Escritor soquete).</td></tr>
+ <tr><td>SOW</td><td>Socket writer</td><td>Inline</td><td>Escritor Socket. Um servidor de soquete que pode enviar linhas de dados a um leitor de socket.</td></tr>
+ <tr><td>SPF</td><td>Split Fields</td><td>Transform</td><td>Quando voce quer dividir um único campo em mais de uma, use este tipo de etapa.</td></tr>
+ <tr><td>SPI</td><td>SAP Input</td><td>Input</td><td>Ler dados de SAP ERP, opcionalmente com parâmetros</td></tr>
+ <tr><td>SPR</td><td>Split field to rows</td><td>Transform</td><td>Divide um campo de seqüencia única por delimitador e cria uma nova linha para cada termo divisao</td></tr>
+ <tr><td>SQO</td><td>SQL File Output</td><td>Output</td><td>Saída de instruçoes SQL INSERT para arquivar</td></tr>
+ <tr><td>SSI</td><td>SAS Input</td><td>Input</td><td>Esta etapa le arquivos em sas7bdat (SAS) formato nativo </td></tr>
+ <tr><td>STC</td><td>Strings cut</td><td>Transform</td><td>Cordas de corte (substring).</td></tr>
+ <tr><td>STL</td><td>Stream lookup</td><td>Lookup</td><td>Consultar valores provenientes de outro fluxo na transformaçao.</td></tr>
+ <tr><td>STO</td><td>String operations</td><td>Transform</td><td>Aplicar certas operaçoes como corte, enchimento e outros para valor string.</td></tr>
+ <tr><td>STR</td><td>Sort rows</td><td>Transform</td><td>Classificar linhas com base em valores de campo (ascendente ou descendente)</td></tr>
+ <tr><td>SUI</td><td>Salesforce Upsert</td><td>Output</td><td>Inserir ou atualizar registros no módulo Salesforce.</td></tr>
+ <tr><td>SWC</td><td>Switch / Case</td><td>Flow</td><td>Alternar uma linha para um determinado passo de destino com base no valor no caso de um campo.</td></tr>
+ <tr><td>SYC</td><td>Symmetric Cryptography</td><td>Experimental</td><td>Criptografar ou descriptografar uma string usando criptografia simétrica. Algoritmos disponíveis sao DES, AEC, TripleDES.</td></tr>
+ <tr><td>TAC</td><td>Table Compare</td><td>Utility </td><td>Este passo compara os dados de dois quadros (desde que tenham o mesmo lay-out). Vai encontrar diferenças entre os dados das duas tabelas e registrá-lo.</td></tr>
+ <tr><td>TAE</td><td>Table exists</td><td>Lookup</td><td>Verifique se existe uma tabela em uma conexao especificada</td></tr>
+ <tr><td>TIN</td><td>Table input</td><td>Input</td><td>Leia as informaçoes de uma tabela do banco de dados.</td></tr>
+ <tr><td>TOU</td><td>Table output </td><td>Output</td><td>Gravar informaçoes em uma tabela de banco de dados</td></tr>
+ <tr><td>TFB</td><td>Teradata Fastload Bulk Loader</td><td>Bulk loading</td><td>A Teradata FastLoad massa loader</td></tr>
+ <tr><td>TFI</td><td>Text file input</td><td>Input</td><td>Ler dados de um arquivo de texto em vários formatos. Estes dados podem entao ser passado para a etapa seguinte (s) ...</td></tr>
+ <tr><td>TFO</td><td>Text file output</td><td>Output</td><td>Escrever linhas para um arquivo de texto.</td></tr>
+ <tr><td>UDE</td><td>User Defined Java Expression</td><td>Scripting</td><td>Calcular o resultado de uma expressao Java usando Janino</td></tr>
+ <tr><td>UDJ</td><td>User Defined Java Class</td><td>Scripting</td><td>Esta etapa permite que voce programe um passo usando o código Java</td></tr>
+ <tr><td>UNR</td><td>Unique rows</td><td>Transform</td><td>Remover fileiras duplas e deixar apenas as ocorrencias únicas. Isto funciona apenas em uma entrada de classificados.Se a entrada nao é classificada, apenas fileiras duplas consecutivos sao tratados corretamente.</td></tr>
+ <tr><td>UNS</td><td>Univariate Statistics</td><td>Statistics</td><td>Esta etapa calcula algumas estatísticas simples baseados em um campo de entrada única</td></tr>
+ <tr><td>UPD</td><td>Update</td><td>Output</td><td>Atualizar dados em uma tabela de banco de dados com base em chaves</td></tr>
+ <tr><td>URH</td><td>Unique rows (HashSet)</td><td>Transform</td><td>Remover fileiras duplas e deixar apenas as ocorrencias únicas usando um HashSet.</td></tr>
+ <tr><td>VAM</td><td>Value Mapper</td><td>Transform</td><td>Mapas de valores de um determinado campo de um valor para outro</td></tr>
+ <tr><td>WRL</td><td>Write to log </td><td>Utility</td><td>Escrever dados para fazer logon</td></tr>
+ <tr><td>WSL</td><td>Web services lookup</td><td>Lookup</td><td>Procure informaçoes com serviços web (WSDL)</td></tr>
+ <tr><td>XBI</td><td>XBase input</td><td>Input</td><td>Le registros de um tipo XBase de arquivo de banco de dados (DBF)</td></tr>
+ <tr><td>XIS</td><td>XML Input Stream (StAX)</td><td>Input</td><td>Esta etapa é capaz de processar grandes e complexos ficheiros XML muito rápido.</td></tr>
+ <tr><td>XMJ</td><td>XML Join</td><td>Joins</td><td>Junta-se um fluxo de XML-Tags em uma string XML alvo</td></tr>
+ <tr><td>XMO</td><td>XML Output</td><td>Output</td><td>Gravar dados em um arquivo XML</td></tr>
+ <tr><td>XST</td><td>XSL Transformation</td><td>Transform</td><td>Transforme fluxo XML usando XSL (eXtensible Stylesheet Language).</td></tr>
+ <tr><td>XSV</td><td>XSD Validator</td><td>Validation</td><td>Validar código fonte XML (arquivos ou fluxos) contra XML Schema Definition.</td></tr>
+ <tr><td>YAI</td><td>Yaml Input</td><td>Input</td><td>Leia fonte YAML (arquivo ou stream) analisá-los e converte-los em linhas e escreve-los para um ou mais saída.</td></tr>
+ <tr><td>ZIP</td><td>Zip File</td><td>Utility </td><td>Cria um arquivo ZIP padrão dos campos de fluxo de dados </td></tr>
+</table>
