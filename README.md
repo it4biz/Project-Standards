@@ -1,7 +1,6 @@
-Project-Standards
+IT4biz Project Standards
 =================
 
-IT4biz Project Standards
 
 IT4biz PDI Step Names
 
