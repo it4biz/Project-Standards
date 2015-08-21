@@ -5,5 +5,5 @@ http://www.it4biz.com.br/cursos/etl-training/IT4biz_PDI_Abreviacao_dos_Steps.htm
 http://www.it4biz.com.br/cursos/etl-training/IT4biz_PDI_Abreviacao_dos_Steps.xlsx<BR>
 
 #Credits
-Erick Gallo - EMS ( www.ems.com.br )
-Leandro Concon - EMS ( www.ems.com.br )
+Erick Gallo - EMS ( www.ems.com.br ) <BR>
+Leandro Concon - EMS ( www.ems.com.br ) <BR>
