@@ -10,8 +10,8 @@ Leandro Concon - EMS ( www.ems.com.br ) <BR>
 
 ## Add PDI folders pattern
 
-0.Stages
-1.Dimensoes
-2.Fatos
-3.Cargas
-4.Util
+0.Stages<BR>
+1.Dimensoes<BR>
+2.Fatos<BR>
+3.Cargas<BR>
+4.Util<BR>
